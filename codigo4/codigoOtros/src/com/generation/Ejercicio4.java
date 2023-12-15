@@ -38,25 +38,26 @@ import java.util.Scanner;
 	      switch(jugador1) {
 	        case "piedra":
 	        	
-	          if (jugador2 == "tijeras") {
+	          if (jugador2.equalsIgnoreCase("tijeras")) { // se agrega equalsIgnoreCase en los casos 
 	            g = 1;
 	          }
 	          break; // agregar los breaks que faltan
 	        case "papel":
 	        	 
-	          if (jugador2 == "piedra") {
+	          if (jugador2.equalsIgnoreCase("piedra")) {
 	           g = 1;
 	            }
 	            break;
 	        case "tijeras"://le faltaba una s
 	        	 
-	          if (jugador2.equals("papel")) {
+	          if (jugador2.equalsIgnoreCase("papel")) {
 	           g = 1;
 	          }
 	          break;
 	           
 	          
 	        default:
+	        	break;
 	      }
 	      System.out.println("Gana el jugador " + g);
 	    }  
