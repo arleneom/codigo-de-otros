@@ -2,6 +2,17 @@
 package com.generation;
 
 import java.util.Scanner;
+/*
+ * Por medio de funciones de imprimir en consola y scanner se recaban
+ * los datos de desicion de cada jugador.
+ * Con una condicional if se comparan las respuestas para determinar si son iguales 
+ * y dar el mensaje de empate.
+ * En caso de no ser asi, se procede con el else a una funcion del tipo 
+ * switch para comparar caso por caso las respuestas del jugador 1 con las del 
+ * jugador dos, se determina por medio de 3 casos que si el jugador 1 no gano, 
+ * entonces gano el jugador 2 esto determinado por el valor del int g 
+ * Al final se imprime un mensaje que informa de quien gano concatenando el valor de g
+ */
 
 //importar scanner 	
 // cambiar el class name a Ejercicio4
