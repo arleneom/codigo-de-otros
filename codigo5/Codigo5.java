@@ -1,6 +1,6 @@
 /* 
 Por medio de un input, se le pide al usuario que ingrese un numero entero, 
-si el numero o el porcentaje contiene el numero 3,7,8 o 9, se imprime un mensaje 
+si el numero  contiene el numero 3,7,8 o 9, se imprime un mensaje 
 que diga que "El  ( ) es un numero afortunado, de no ser asi de imprime 
 "El () no es un numero afortunado."
 */
@@ -13,7 +13,7 @@ public class Codigo5 {
   public static void main(String[] args) { // se agrega main
 
     Scanner s = new Scanner(System.in);// se agrega que tipo de dato va a recibir
-    System.out.print("Introduzca un número del 1 al 100 y descucbra si es un numero afortunado : ");
+    System.out.print("Introduzca un número entero del 1 al 100 y descubra si es un numero afortunado: ");
     // se cambia' por " y se agrega instruccion del 1 al 100 ...
                                                                
     int ni = s.nextInt();
